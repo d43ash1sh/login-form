@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Form</title>
+</head>
+<body>
+  <h1>Login Form</h1>
+  <form>
+    <label for="username">Username:</label><br>
+    <input type="text" id="username" name="username"><br>
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password"><br><br>
+    <input type="submit" value="Submit">
+  </form> 
+  <audio id="myAudio" src="login-music/login-music.mp3"></audio>
+  <script>
+    window.addEventListener("keydown", function() {
+      var audio = document.getElementById("myAudio");
+      audio.play();
+    });
+  </script>
+</body>
+</html>
